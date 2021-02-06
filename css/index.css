@@ -1,0 +1,215 @@
+/* BACKGROUND COLOR*/
+
+body {
+    background-color: black;
+    }
+    
+    /*BORDER BOX*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*NAVIGATION MENU STYLING*/
+    
+    .menu-area li a {
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: block;
+        padding: 0 25px;
+        font-size: 14px;
+        line-height: 25px;
+        position: relative;
+        z-index: 1;
+        font-family: "helvetica";
+    }
+    
+    .menu-area li { 
+        list-style: none;
+        display: inline-block;
+    }
+  
+    
+    nav {
+        position: relative;
+        padding: 10px 20px 10px 10px;
+        text-align: right;
+        z-index: 1;
+        opacity: 100%;
+     
+        
+    }
+    
+    .menu-area li a:hover {
+        background: slategrey;
+        color: #fff;
+    }
+    
+    /* LOGO PLACEMENT*/
+    
+    .img-fluid {
+       width: 75px;
+        height: 75px;
+   
+        float: left;
+        object-fit: contain;
+        margin: 37px;
+        margin-top: 10px;
+    }
+    
+    /*HERO SECTION*/
+    
+    .hero {
+        background-image: url("../css/Group-172x-p-1600.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #080808;
+        height: 90vh;
+        opacity: 100%;
+    }
+    
+    .hero-inner {
+        padding-left: 50px;
+        padding-right: auto;
+        padding-top: 190px;
+        padding-bottom: auto;
+        height: 300px;
+        width: 500px
+    }
+    
+    .navigation {
+    float:right;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 30px;
+     }
+    
+    /*PORTFOLIO CARD PLACEMENT*/
+    
+    .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+    }
+    
+    
+    
+   
+    /* Style inputs with type="text", select elements and textareas */
+    
+    input[type=text], select, textarea {
+      width: 600px; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 40px; /* Add a top margin */
+      margin-bottom: 40px; /* Bottom margin */
+      margin-left: 20px;
+      margin-right: 20px;
+      resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+      resize: horizontal;
+      font-family: "helvetica";
+    }
+    
+    
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: #6b95e2;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: -725px;
+    }
+    
+    /*CONTACT FORM STYLING/
+    
+    /* When moving the mouse over the submit button, add a darker green color *
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }*/
+    
+    /* Add a background color and some padding around the form */
+    .container {
+      /*border-radius: 0px;*/
+      background-color: #222121;
+      padding: 20px;
+      font-family: "helvetica";
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      color:whitesmoke;
+      /*display: flex;
+      align-items: center;
+      justify-content: center;*/
+    
+    }
+    
+    
+    label {
+        display: inline-block;
+        width: 250px;
+        text-align: left;
+        color: whitesmoke;
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    
+    .other label {
+        text-align: left;
+        color: whitesmoke;
+        margin-top: auto;
+    }
+    
+    /*FOOTER*/
+
+    /*footer {
+        padding: 150px;
+    }
+*/
+    .footer-container {
+        max-width: 90%;
+        margin: auto;
+        padding: 0 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(65, 64, 64);
+        flex-wrap: wrap-reverse;
+     
+        
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+           float: left;
+        object-fit: contain;
+        margin: 37px;
+        margin-top: 25px;
+    }
+ 
+    .text {
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        margin: 30px;
+    }
